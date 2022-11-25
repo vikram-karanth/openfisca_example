@@ -1,0 +1,12 @@
+# Test files describe situations and their expected outcomes
+# We can run this test on our command line using `openfisca-run-test movements.yaml`
+
+- name: "Estuary movements Batemans Bay"
+  period: 2022-11
+  input:
+    source_estuary: "Bega River"
+    source_estuary_status: "open"
+    destination_estuary: "Bellinger River"
+    destination_estuary_status: "open"
+  output:
+    estuary_movement: 1
