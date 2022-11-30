@@ -26,9 +26,9 @@
 - name: "Estuary movements source estuary closed"
   period: 2022-11
   input:
-    source_estuary: "Bega River"
-    source_estuary_status: "closed"
-    destination_estuary: "Bellinger River"
+    source_estuary: ["Bega River"]
+    source_estuary_status: ["closed"]
+    destination_estuary: ["Bellinger River"]
     destination_estuary_status: 0
     source_status: 0
   output:

@@ -41,7 +41,7 @@ Household = build_entity(
             "label": "Child",
             "doc": "Other individuals living in the household.",
             },
-        ],
+        ]
     )
 
 Person = build_entity(
@@ -58,7 +58,7 @@ Person = build_entity(
 
     For more information, see: https://openfisca.org/doc/coding-the-legislation/50_entities.html
     """,
-    is_person = True,
+    is_person = True
     )
 
 Shipment = build_entity(
@@ -82,8 +82,8 @@ Shipment = build_entity(
                 "max": 2,
                 # "subroles": ["source_estuary", "destination_estuary"],
                 "doc": "The destination estuaries for oyster movement.",
-            },               
-        ],    
+            },
+        ]
     )
 
 entities = [Household, Person, Shipment]
